@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>修改密码</title>
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- 2. jQuery导入，建议使用1.9以上的版本 -->
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<!-- 3. 导入bootstrap的js文件 -->
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div id="pageAll">
+		<div class="pageTop">
+			<div class="page">
+				<img src="img/coin02.png" /><span><a href="#">首页</a>&nbsp;-&nbsp;<a
+					href="#">公共管理</a>&nbsp;-</span>&nbsp;修改密码
+			</div>
+		</div>
+		<div class="page ">
+			<!-- 修改密码页面样式 -->
+			<div class="bacen">
+				<div class="bbD">
+					&nbsp;&nbsp;&nbsp;&nbsp;课程：&nbsp;
+				  <input type="password" class="input3"
+						onblur="checkpwd1()" id="" />
+			  </div>
+				<div class="bbD"> &nbsp;&nbsp;&nbsp;&nbsp;教师：&nbsp;
+				  <input type="password" class="input3"
+						onblur="checkpwd2()" id="" />
+				</div>
+                <div class="bbD"> &nbsp;&nbsp;&nbsp;&nbsp;班级：
+                  <input type="password" class="input3"
+						onblur="checkpwd3()" id="" />
+                </div>
+
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+						下拉菜单
+						<span class="caret"></span>
+					</button>
+
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+					</ul>
+				</div>
+
+              <div class="bbD">
+					&nbsp;&nbsp;&nbsp;&nbsp;学期：
+					<input type="password" class="input3"
+						onblur="checkpwd4()" id="term" /> <img class="imga"
+						src="img/ok.png" /><img class="imgb" src="img/no.png" />
+				</div>
+			  <div class="bbD">
+					&nbsp;&nbsp;&nbsp;&nbsp;人数：
+				<input type="password" class="input3"
+						onblur="checkpwd5()" id="password" /> <img class="imga"
+						src="img/ok.png" /><img class="imgb" src="img/no.png" />
+			  </div>
+				<div class="bbD">&nbsp;&nbsp;&nbsp;&nbsp;课时：
+				  <input type="password" class="input3" onblur="checkpwd6()"
+						id="pwd3" /> <img class="imga" src="img/ok.png" /><img
+						class="imgb" src="img/no.png" />
+				</div>
+				<div class="bbD">
+					<p class="bbDP">
+						<button class="btn_ok btn_yes" href="#">提交</button>
+						<a class="btn_ok btn_no" href="#">取消</a>
+					</p>
+				</div>
+			</div>
+
+			<!-- 修改密码页面样式end -->
+		</div>
+	</div>
+</body>
+
+</html>

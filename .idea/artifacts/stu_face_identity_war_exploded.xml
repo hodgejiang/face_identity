@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="stu_face_identity:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/stu_face_identity_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="stu_face_identity" />
+          <element id="javaee-facet-classes" facet="stu_face_identity/web/Web" />
+        </element>
+      </element>
+      <element id="artifact" artifact-name="stu_face_identity:ear exploded" />
+      <element id="javaee-facet-resources" facet="stu_face_identity/web/Web" />
+    </root>
+  </artifact>
+</component>
